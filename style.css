@@ -29,6 +29,10 @@ header {
   width: 17vw;
 }
 
+.desaparecer {
+  display: none;
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -130,4 +134,66 @@ h2 {
 
 .outIcon {
   height: 10vh;
+}
+
+@media (max-width: 900px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Sessao {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .desaparecer {
+    display: flex;
+    height: 8vh;
+  }
+  nav {
+    display: none;
+  }
+  .primeiraSessao {
+    flex-direction: column;
+    height: 65vh;
+    justify-content: space-around;
+  }
+  .p1 {
+    font-size: 3vh;
+    width: 88vw;
+  }
+  .Maimg1 {
+    height: 25vh;
+  }
+  .segundaSessao {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 65vh;
+  }
+  .p2 {
+    font-size: 3vh;
+    width: 88vw;
+  }
+  .Maimg2 {
+    height: 20vh;
+  }
+  .terceiraSessao {
+    display: inline-block;
+    height: 52vh;
+  }
+  .dicas {
+    height: 25vh;
+  }
+  footer {
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+  }
+  .fim {
+    width: 34vw;
+    text-align: center;
+  }
+  .footerSection {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
