@@ -192,11 +192,15 @@ h2 {
     height: 20vh;
   }
   .fim {
+    color: white;
     width: 34vw;
     font-size: 2vh;
     text-align: center;
   }
   .footerSection {
     flex-direction: column;
+  }
+  .outIcon {
+    height: 7vh;
   }
 }/*# sourceMappingURL=style.css.map */

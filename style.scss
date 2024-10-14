@@ -205,6 +205,7 @@ h2{
     }
 
     .fim{
+        color: white;
         width: 34vw;
         font-size: 2vh;
         text-align: center;
@@ -212,6 +213,10 @@ h2{
 
     .footerSection{
         flex-direction: column;
+    }
+
+    .outIcon{
+        height: 7vh;
     }
     
 }
