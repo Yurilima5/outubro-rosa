@@ -136,7 +136,7 @@ h2 {
   height: 10vh;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   header {
     display: flex;
     align-items: center;
@@ -159,7 +159,7 @@ h2 {
     justify-content: space-around;
   }
   .p1 {
-    font-size: 3vh;
+    font-size: 2vh;
     width: 88vw;
   }
   .Maimg1 {
@@ -171,18 +171,20 @@ h2 {
     height: 65vh;
   }
   .p2 {
-    font-size: 3vh;
+    font-size: 2vh;
     width: 88vw;
   }
   .Maimg2 {
     height: 20vh;
   }
   .terceiraSessao {
-    display: inline-block;
-    height: 52vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .dicas {
-    height: 25vh;
+    height: 20vh;
   }
   footer {
     align-items: center;
@@ -191,6 +193,7 @@ h2 {
   }
   .fim {
     width: 34vw;
+    font-size: 2vh;
     text-align: center;
   }
   .footerSection {

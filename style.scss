@@ -137,7 +137,7 @@ h2{
     height: 10vh;
 }
 
-@media(max-width: 900px){
+@media(max-width: 850px){
     header{
         display: flex;
         align-items: center;
@@ -165,7 +165,7 @@ h2{
     }
 
     .p1{
-        font-size: 3vh;
+        font-size: 2vh;
         width: 88vw;
     }
 
@@ -180,7 +180,7 @@ h2{
     }
 
     .p2{
-        font-size: 3vh;
+        font-size: 2vh;
         width: 88vw;
     }
 
@@ -189,12 +189,13 @@ h2{
     }
 
     .terceiraSessao{
-        display: inline-block;
-        height: 52vh;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: fit-content;
     }
 
     .dicas{
-        height: 25vh;
+        height: 20vh;
     }
 
     footer{
@@ -205,6 +206,7 @@ h2{
 
     .fim{
         width: 34vw;
+        font-size: 2vh;
         text-align: center;
     }
 
